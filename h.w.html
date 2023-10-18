@@ -1,0 +1,118 @@
+<!-- 
+w.a.p to print sqrt
+w.a.p to print square
+w.a.p to print average marks for there subject i.e math=85; chemistry=45,computers=98
+w.a.p to print simple interest
+w.a.p to print compound interest
+w.a.p to print area of circle
+w.a.p to print area of triangle
+w.a.p to print area of square
+ -->
+
+
+
+ <!-- 1) w.a.p to print sqrt -->
+
+ <script>
+
+    var a=36
+    document.write("sqrt of 36 is:" +" " + Math.sqrt(a));
+
+</script>
+<br>
+<br>
+
+<!-- 2) w.a.p to print square -->
+
+ <script>
+    var b=36
+    var c = b * b
+    document.write("square of 36 is :"+" " + c);
+ </script>
+<br>
+<br>
+
+ <!-- 3) w.a.p to print average marks for there subject i.e math=85; chemistry=45,computers=98 -->
+
+ <script>
+    var m = 85
+    var ch = 45
+    var co = 98
+
+    var avg = (m + ch + co) / 3
+    document.write("average marks for there subject is:" + "  " + avg);
+ </script>
+
+<br>
+<br>
+<!-- 4) w.a.p to print simple interest -->
+
+<script>
+    var p = 5000
+    var t = 1
+    var r = 5
+
+    var si = (p*t*r) / 100
+
+    document.write(" simple interest for 5000 principle in 1 year on 5%:" + " " + si);
+</script>
+
+<br>
+<br>
+<!-- 5) w.a.p to print compound interest -->
+
+<script>
+    var principal = 5000
+    var rate = 5
+    var time = 2
+
+    var z = principal *
+        (Math.pow((1 + rate / 100), time));
+    var CI = z - principal;
+
+    document.write("Compound interest is " + CI);
+</script>
+
+<br>
+<br>
+
+<!-- 6) w.a.p to print area of circle -->
+
+<script>
+    var radius = 20;
+    var pi = Math.PI;
+
+    var area = pi*(radius*radius)
+
+    document.write("The area of the circle is: " + area);
+</script>
+
+<br>
+<br>
+
+<!-- 7) w.a.p to print area of triangle -->
+
+<script>
+    var side1 = 5
+    var side2 = 6
+    var side3 = 8
+
+    var s = (side1 + side2 + side3) / 2
+    var area = Math.sqrt(s * ((s - side1) * (s - side2) * (s - side3)));
+
+    document.write("The area of the triangle is: " + area);
+</script>
+
+<br>
+<br>
+
+<!-- 8) w.a.p to print area of square -->
+
+<script>
+   var l1 = 4 
+   var l2 = 6
+
+   var area = l1 * l2
+
+   document.write("The area of the square is: " + area);
+</script>
